@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/index.css" />
+    <link rel="stylesheet" type="text/css" href="/css/carousel.css" />
+    <script src="/js/app.js"></script>
+    <script src="/js/carousel.js"></script>
+  </head>
+
+  <body>
+    <div class="logo-container">
+      <a href="https://mlh.io">
+        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Major_League_Hacking_logo.svg/1200px-Major_League_Hacking_logo.svg.png" />
+      </a>
+    </div>
+
+    <div class="filter-container">
+      <div class="secondary-filter-container">
+        <input id="filter" type="text" placeholder="Filter your beach or clean up here"/>
+      </div>
+    </div>
+
+    <h2>Beaches</h2>
+    <div class="container">
+      <div class="row">
+        <div class="MultiCarousel" data-items="3,3,3,3" data-slide="3" id="beach-locations-carousel"  data-interval="1000">
+          <div class="MultiCarousel-inner" id="beaches-container">
+          </div>
+          <button class="leftLst">
+            <i class="arrow left"></i>
+          </button>
+          <button class="rightLst">
+            <i class="arrow right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <h2>Clean up dates</h2>
+    <div id="clean-ups-container">
+    </div>
+  </body>
+</html>

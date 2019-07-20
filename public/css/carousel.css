@@ -1,0 +1,66 @@
+.MultiCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+  width: 100%;
+  position:relative;
+  margin-top: 50px;
+}
+
+.MultiCarousel .MultiCarousel-inner {
+  transition: 1s ease all;
+  float: left;
+  height: 140px;
+  overflow: hidden;
+}
+
+.MultiCarousel .MultiCarousel-inner.clean-ups{
+  height: 145px;
+}
+
+.MultiCarousel .MultiCarousel-inner .item {
+  float: left;
+}
+
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+  position:absolute;
+  border-radius:50%;
+  top: 63px;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  background-color: transparent;
+}
+
+.MultiCarousel .leftLst {
+  left: -5px;
+}
+
+.MultiCarousel .rightLst {
+  right: -5px;
+}
+
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over {
+  display: none;
+}
+
+i {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.item-container {
+  padding: 0 10px;
+}

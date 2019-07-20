@@ -1,0 +1,101 @@
+* {
+  outline: none
+}
+
+body {
+  background-color: #F7F9F9;
+  text-align: center;
+}
+
+.filter-container {
+  margin-bottom: 50px;
+}
+
+.logo-container, .filter-container {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  padding-top: 150px;
+  width: 272px;
+}
+
+.secondary-filter-container {
+  border: solid silver 1px;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+
+#filter {
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  height: 40px;
+  outline:none;
+  padding-left: 20px;
+  width: 582px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px 0 rgba(0,0,0,0.08);
+  color: black;
+  display: inline-block;
+  font-size: 13px;
+  height: 125px;
+  overflow: hidden;
+  padding: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.card.beach {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.card.clean-up {
+  height: 125px;
+  margin: 10px;
+  width: 305px;
+}
+
+.card-details {
+  display: block;
+}
+
+.card-details:first-child {
+  margin-top: 15px;
+}
+
+.subscribe-container {
+  margin-top: 15px;
+}
+
+.subscribe-btn {
+  background: #f7db2f;
+  border: 1px solid #fefa7f;
+  border-radius: 3px;
+  color: #343434;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.subscribe-input {
+  width: 241px;
+}
+
+.thanks {
+  color: #337ab7;
+  display: block;
+  margin-top: 10px
+}
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
